@@ -1,0 +1,6 @@
+battery 0 {
+    format = "%status %percentage %remaining"
+}
+
+order += "battery 0"
+order += "time"
